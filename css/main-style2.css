@@ -88,7 +88,7 @@ html,body {
 
 #topnav {
 	font-family: "Myriad Pro", Arial, "Times New Roman";
-	font-size: 12px;
+	font-size: 13px;
 	color: #898d8e;
 	float: left;
 	margin:0 0 0 80px;
@@ -136,26 +136,24 @@ html,body {
 }
 
 #carousel{
-	margin:0 0 40px 0;
+	margin:0 0 25px 0;
 }
 
 #carousel2{
-	margin:0 0 40px 0;
+	margin:0 0 25px 0;
 }
 
 #carousel3{
-	margin:0 0 40px 0;
+	margin:0 0 25px 0;
 }
 
 #carousel4{
-	margin:0 0 40px 0;
+	margin:0 0 25px 0;
 }
 
 #carousel5{
-	margin:0 0 40px 0;
+	margin:0 0 25px 0;
 }
-
-
 
 
 }
@@ -386,9 +384,11 @@ a.footlink:active {color:#999;}  /* selected link */
 	width:800px;
 }
 
-.image_carousel img {
+.image_carousel img {}
 
-    
+#carouselbottom{
+	margin:0 0 45px 0;
+}    
    
     padding: 8px;
     display: block;
