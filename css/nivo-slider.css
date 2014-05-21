@@ -1,0 +1,142 @@
+/*
+ * jQuery Nivo Slider v3.2
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2012, Dev7studios
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+ 
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	max-width: none;
+}
+.nivo-main-image {
+	display: block !important;
+	position: relative !important; 
+	width: 100% !important;
+}
+
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+	background:white; 
+	filter:alpha(opacity=0); 
+	opacity:0;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+	top:0;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+	overflow:hidden;
+}
+.nivo-box img { display:block; }
+
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#aba7b1;
+	color:#000;
+	width:100%;
+	z-index:8;
+	padding: 10px 10px;
+	opacity: 0.8;
+	overflow: hidden;
+	display: none;
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=8);
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	font-family: "Myriad Pro", Arial, "Times New Roman";
+	font-size:12px;
+}
+.nivo-caption p {
+		
+	margin:0;
+}
+
+.nivo-caption regular{
+	
+	
+	color:#fff;
+	font-size:18px;
+	line-height:22px;
+}
+
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+   
+	display:none;
+}
+
+/* Direction nav styles (e.g. Next & Prev) */
+
+
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+	
+	float:right
+	padding: 0;
+	position:relative;
+	right:44%;
+	text-indent: -9999px; 
+}
+.nivo-controlNav a {
+	cursor:pointer;
+}
+
+.nivo-controlNav a {
+    background: url(../images/bullets2.png) no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    display: block;
+    float: right;
+    height: 22px;
+    margin-right: 2px;
+   	text-indent: -9999px; 
+    width: 22px;
+}
+
+
+.nivo-controlNav a.active {
+	background: url(../images/bullets2.png) no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    display: block;
+    float: right;
+    height: 22px;
+    margin-right: 2px;
+   	text-indent: -9999px; 
+    width: 22px;
+	background-position:0 -22px;
+}
+
