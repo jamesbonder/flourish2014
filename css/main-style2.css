@@ -17,6 +17,18 @@ a:visited {color:#444;}  /* visited link */
 a:hover {color:#BE0F34;}  /* mouse over link */
 a:active {color:#BE0F34;}  /* selected link */
 
+#footer a:link{
+	color:#fff;
+}
+
+#footer a:visited{
+	color:#fff;
+}
+
+#footer a:hover{
+	color:#444;
+}
+
 h1 {
 	font-family: "Myriad Pro", Arial, "Times New Roman";
 	padding:10px 0 15px 10px;

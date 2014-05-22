@@ -18,6 +18,18 @@ a:hover {color:#BE0F34;}  /* mouse over link */
 a:active {color:#BE0F34;}  /* selected link */
 
 
+#footer a:link{
+	color:#fff;
+}
+
+#footer a:visited{
+	color:#fff;
+}
+
+#footer a:hover{
+	color:#444;
+}
+
 #livelink{
 	color:#BE0F34;
 }
