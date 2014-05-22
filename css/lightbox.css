@@ -102,7 +102,7 @@
   left: 0;
   float: left;
   z-index:9;
-  
+  background: url(../images/prev.png) left 48% no-repeat;
 }
 
 /* line 76, ../sass/lightbox.sass */
@@ -110,7 +110,8 @@
   right: 0;
   float: right;
   z-index:9;
-  
+  display:block;
+  background: url(../images/next.png) right 48% no-repeat;
 }
 
 /* line 81, ../sass/lightbox.sass */
