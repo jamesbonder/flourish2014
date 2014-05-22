@@ -30,6 +30,13 @@ a:active {color:#BE0F34;}  /* selected link */
 	color:#444;
 }
 
+.disclaimer p{
+font-family: "Myriad Pro", Arial, "Times New Roman";
+	font-size: 14px;
+	color:#817F85;
+	padding:0 10px 0 10px;
+}
+
 #livelink{
 	color:#BE0F34;
 }

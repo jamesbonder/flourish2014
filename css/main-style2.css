@@ -29,6 +29,16 @@ a:active {color:#BE0F34;}  /* selected link */
 	color:#444;
 }
 
+.disclaimer{
+font-family: "Myriad Pro", Arial, "Times New Roman";
+	font-size: 12px;
+	color:#fff;
+	padding:0 10px 0 10px;
+	position:relative;
+	top:58px;
+}
+
+
 h1 {
 	font-family: "Myriad Pro", Arial, "Times New Roman";
 	padding:10px 0 15px 10px;
